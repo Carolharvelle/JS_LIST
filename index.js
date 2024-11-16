@@ -4,14 +4,7 @@ function adicionarTarefa() {
 
     if (novaTarefa) {
         const itemLista = document.createElement('li');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.onchange = function () {
-            itemLista.classList.toggle('concluida');
-        };
-
-        itemLista.appendChild(checkbox);
-        itemLista.appendChild(document.createTextNode(novaTarefa));
+        itemLista.textContent = novaTarefa;
         listaTarefas.appendChild(itemLista);
 
         document.getElementById('novaTarefa').value = '';
