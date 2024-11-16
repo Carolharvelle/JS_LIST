@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F28B8B;
+    /* Rosa claro */
+    color: #fff;
+    /* Branco */
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #fff;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #F28B8B;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    /* Para alinhar o checkbox e o texto */
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
